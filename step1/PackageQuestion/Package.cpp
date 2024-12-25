@@ -6,7 +6,7 @@
 #define MAX(a,b) ({\
 		__typeof__(a) __a = a;\
 		__typeof__(b) __b = b;\
-		__a > __b ? __a : b;\
+		__a > __b ? __a : __b;\
 		})
 int dp2[NUM][WEIGHT];
 int dp1[WEIGHT];
